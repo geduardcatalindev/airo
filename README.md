@@ -62,6 +62,12 @@ sudo docker exec "php container id" composer install
 ./vendor/bin/sail artisan migrate --seeder=DatabaseSeeder
 ```
 
+## Generate JWT secret
+
+```bash
+./vendor/bin/sail artisan jwt:secret
+```
+
 ## Visit the frontend
 
 ```bash
